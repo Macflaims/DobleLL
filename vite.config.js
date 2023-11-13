@@ -3,5 +3,8 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   base: "/DobleLL/",
-  plugins: [react()]
+  esbuild: {
+    jsxInject: `import React from 'react'`
+  },
+  plugins: [react()]
 })
