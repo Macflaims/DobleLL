@@ -13,8 +13,8 @@ const ImageWithText = ({ title, text }) => {
         <Container className="first-container"> {/* Agrega una clase al primer Container */}
           <Row>
             <Col className='text-center'>
-              <h1>Transporte Pedro</h1>
-              <p>"El transporte que necesitas, al alcance de tus manos"</p>
+              <h1>{title}</h1>
+              <p>{text}</p>
             </Col>
           </Row>
         </Container>
@@ -22,7 +22,7 @@ const ImageWithText = ({ title, text }) => {
         <div className='container-wrapper'>
           <Container >
             <Row >
-              <Col className="p-5">
+              <Col className="">
                 <h2 >Sobre nosotros</h2>
                 <p >Si hablamos de transporte, no podemos dejar de mencionar a Martin y su empresa de transportes. Con una amplia flota de . vehículos, Martin se ha convertido en una figura clave en el mundo de los traslados. Su compromiso con el servicio y la satisfacción del cliente es lo que hace que su empresa sea diferente a las demás.</p>
               </Col>

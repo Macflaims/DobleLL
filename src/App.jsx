@@ -15,7 +15,7 @@ function App() {
     <NavBarComponent/>
     <ImageWithText
         title="Transporte Pedro"
-        text="Texto debajo del título" />
+        text="El transporte que necesitas, al alcance de tus manos"/>
     <SectionTitleComponent title="Por qué elegirnos?" />
     <ThreeStripesSection/>
     <SectionTitleComponent title="Conoce nuestra flota" />

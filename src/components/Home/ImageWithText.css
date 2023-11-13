@@ -26,7 +26,7 @@
 .container-wrapper {
   position: absolute;
   top: 50%;
-  left: 50%; /* Mover un 30% hacia la derecha */
+  left: 50%; 
   transform: translate(-50%, -50%);
   background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -34,7 +34,7 @@
   width: 80%;
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* Mover un 30% hacia la derecha */
+  justify-content: flex-start; 
 }
 
 
