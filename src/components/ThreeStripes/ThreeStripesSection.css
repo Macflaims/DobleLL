@@ -1,0 +1,14 @@
+.three-stripes-section {
+    background-color: gray;
+  }
+  
+  .stripe {
+    padding: 20px;
+    background-color: white;
+    margin: 1px;
+  }
+  
+  .white {
+    color: black; /* Cambia el color del texto a negro o el que desees */
+  }
+  
