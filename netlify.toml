@@ -1,0 +1,3 @@
+[build]
+command = "npm run build"
+publish = "dist"  # Ajusta esto según el directorio de construcción de tu aplicación
