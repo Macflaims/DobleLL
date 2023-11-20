@@ -8,7 +8,7 @@ const SectionTitleComponent = ({ title }) => {
   };
 
   return (
-    <div classname="" style={sectionStyle}>
+    <div style={sectionStyle}>
       <h1>{title}</h1>
     </div>
   );
